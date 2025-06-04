@@ -1,0 +1,52 @@
+.about-container {
+  padding: 4rem 1rem;
+  background: #f3f6fc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-title {
+  font-size: 2.5rem;
+  color: #1e1e2f;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.about-card {
+  background: white;
+  border-radius: 1.25rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  padding: 2rem;
+  max-width: 900px;
+  width: 95%;
+  transition: transform 0.3s ease;
+}
+
+.about-content {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #333;
+}
+
+.icon {
+  margin-right: 10px;
+  color: #4e8df5;
+  vertical-align: middle;
+}
+
+.toggle-btn {
+  margin-top: 1.5rem;
+  background-color: #4e8df5;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.toggle-btn:hover {
+  background-color: #3c72c1;
+}
